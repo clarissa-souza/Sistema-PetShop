@@ -19,7 +19,19 @@ Ao executar o algoritmo, deverá aparecer duas opções:
 8. Cada requisito atendido terá uma pontuação que será somada no caso da equipe se apresentar a nota de apresentação , caso a equipe não apresente será validado apenas 
   o atendimento dos requisitos acima.
 9. DESAFIO EXTRA : o programa em python ser executado em um VM dentro do GCP
-
+  Colocar em uma VM no gcp
+    9.1) Criar VM Instance (Debian Linux 10 ou 11)
+    9.2) Acessar a VM pelo SSH
+    9.3) sudo apt-get install wget (para instalar o wget)
+    9.4) wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh (para fazer o download do Miniconda)
+    9.5) ls (para verificar o arquivo criado)
+    9.6) bash Miniconda3-latest-Linux-x86_64.sh (executar o arquivo criado)
+    9.7) Ler a licença e aceita o lcoal de instalação 
+    9.8) yes para aceitar o local de instalação
+    9.9) Depois de instalado sair do ssh 
+    9.10) Acessar a máquina com o ssh
+    9.11) vim PetShop.py (colar o código feito em python no arquivo PetShop.py e salvar)
+    9.12) python nome_Arquivo.py (para executar o pograma)
 
 
 Equipe:
